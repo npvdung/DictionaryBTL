@@ -16,7 +16,7 @@ public class Dictionary {
         return this.wordArray.get(index);
     }
 
-    public void addWordElement(Word word) {
+    public void add(Word word) {
         this.wordArray.add(word);
     }
 

@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class DictionaryCommandline {
             String cmd = sc.nextLine();
 
             if (cmd.equals("-help")) {
-                System.out.println("-insert, -delete, -translate, -export, -show, -search, -exit");
+                System.out.println("-insert, -show, -exit");
             }
 
             if (cmd.equals("-insert")) {
@@ -41,14 +42,51 @@ public class DictionaryCommandline {
                 for (int i = 0; i < amount; i++) {
                     System.out.print("Type word: ");
                     String target = sc.nextLine();
+                    System.out.print("Type pronounce: ");
+                    String pronounce = sc.nextLine();
                     System.out.print("Type explain: ");
                     String explain = sc.nextLine();
-                    dictionaryManagement.insertFromCommandline(target, explain);
+                    dictionaryManagement.insertFromCommandline(target, pronounce, explain);
                 }
             }
 
             if (cmd.equals("-show")) {
                 this.showAllWords();
+            }
+
+            if (cmd.equals("-exit")) {
+                break;
+            }
+        }
+    }
+
+    public void dictionaryAdvanced() {
+        System.out.println("Type -help for more details");
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            String cmd = sc.nextLine();
+
+            if (cmd.equals("-help")) {
+                System.out.println("-insert, -delete, -translate, -export, -show, -search, -exit");
+            }
+
+            if (cmd.equals("-insert")) {
+                try {
+                    dictionaryManagement.insertFromFile();
+                } catch (FileNotFoundException e) {
+                    System.out.println("File not found!");
+                }
+            }
+
+            if (cmd.equals("-show")) {
+                this.showAllWords();
+            }
+
+            if (cmd.equals("-translate")) {
+                System.out.print("Type word to be translated: ");
+                String word = sc.nextLine();
+                dictionaryManagement.dictionaryLookup(word);
             }
 
             if (cmd.equals("-exit")) {

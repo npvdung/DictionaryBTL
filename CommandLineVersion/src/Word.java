@@ -1,18 +1,24 @@
 public class Word {
     String wordTarget;
+    String wordPronounce;
     String wordExplain;
 
-    public Word(String wordTarget, String wordExplain) {
+    public Word(String wordTarget, String wordPronounce, String wordExplain) {
         this.wordTarget = wordTarget;
+        this.wordPronounce = wordPronounce;
         this.wordExplain = wordExplain;
     }
 
-    public void setWord_target(String word_target) {
-        this.wordTarget = word_target;
+    public void setWord_target(String wordTarget) {
+        this.wordTarget = wordTarget;
     }
 
-    public void setWordExplain(String word_explain) {
-        this.wordExplain = word_explain;
+    public void setWordExplain(String wordExplain) {
+        this.wordExplain = wordExplain;
+    }
+
+    public void setWordPronounce(String wordPronounce) {
+        this.wordPronounce = wordPronounce;
     }
 
     public String getWordTarget() {
@@ -21,5 +27,9 @@ public class Word {
 
     public String getWordExplain() {
         return wordExplain;
+    }
+
+    public String getWordPronounce() {
+        return wordPronounce;
     }
 }
