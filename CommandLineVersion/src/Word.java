@@ -3,8 +3,11 @@ public class Word {
     String wordPronounce;
     String wordExplain;
 
-    public Word(String wordTarget, String wordPronounce, String wordExplain) {
+    String wordType;
+
+    public Word(String wordTarget, String wordType, String wordPronounce, String wordExplain) {
         this.wordTarget = wordTarget;
+        this.wordType = wordType;
         this.wordPronounce = wordPronounce;
         this.wordExplain = wordExplain;
     }
@@ -31,5 +34,9 @@ public class Word {
 
     public String getWordPronounce() {
         return wordPronounce;
+    }
+
+    public String getWordType() {
+        return wordType;
     }
 }

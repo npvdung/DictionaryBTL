@@ -1,6 +1,8 @@
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
+import java.util.ArrayList;
+import trieAlgorithm.Trie;
 
 public class DictionaryCommandline {
     private final DictionaryManagement dictionaryManagement = new DictionaryManagement();
@@ -25,6 +27,17 @@ public class DictionaryCommandline {
         }
     }
 
+    public String[] dictionarySearcher(String find) {
+        find = find.toUpperCase();
+        List<Word> arrayList = dictionaryManagement.getDictionary().getWordArray();
+        Trie trie = new Trie();
+        for (Word word : arrayList) {
+            String key = word.getWordTarget().toLowerCase();
+            trie.insert(key);
+        }
+        return trie.findAllWord(find);
+    }
+
     public void dictionaryBasic() {
         System.out.println("Type -help for more details");
         Scanner sc = new Scanner(System.in);
@@ -42,11 +55,13 @@ public class DictionaryCommandline {
                 for (int i = 0; i < amount; i++) {
                     System.out.print("Type word: ");
                     String target = sc.nextLine();
+                    System.out.print("Type type: ");
+                    String type = sc.nextLine();
                     System.out.print("Type pronounce: ");
                     String pronounce = sc.nextLine();
                     System.out.print("Type explain: ");
                     String explain = sc.nextLine();
-                    dictionaryManagement.insertFromCommandline(target, pronounce, explain);
+                    dictionaryManagement.insertFromCommandline(target, type, pronounce, explain);
                 }
             }
 
@@ -74,7 +89,7 @@ public class DictionaryCommandline {
             if (cmd.equals("-insert")) {
                 try {
                     dictionaryManagement.insertFromFile();
-                } catch (FileNotFoundException e) {
+                } catch (IOException e) {
                     System.out.println("File not found!");
                 }
             }
@@ -87,6 +102,27 @@ public class DictionaryCommandline {
                 System.out.print("Type word to be translated: ");
                 String word = sc.nextLine();
                 dictionaryManagement.dictionaryLookup(word);
+            }
+
+            if (cmd.equals("-delete")) {
+                System.out.print("Type word to be deleted: ");
+                String word = sc.nextLine();
+                dictionaryManagement.delete(word);
+            }
+
+            if (cmd.equals("-export")) {
+                System.out.println("You don't have permission to export file");
+            }
+
+            if (cmd.equals("-search")) {
+                System.out.print("Type word to Search: ");
+                String prefix = sc.nextLine();
+                String[] ans = this.dictionarySearcher(prefix);
+                if (ans.length < 1) {
+                    System.out.println("Cant find any words");
+                    continue;
+                }
+                for (String v : ans) System.out.println(v);
             }
 
             if (cmd.equals("-exit")) {
