@@ -15,6 +15,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -38,10 +41,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion/src/libs/voicerss_tts.jar",
+    "last_opened_file_path": "D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion/src/libs/commons-lang3-3.11.jar",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -49,9 +52,22 @@
       <recent name="D:\VNU\Program\OOP\N2_01Project\DictionaryBTL\GraphicsVersion\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextToSpeechAPI">
+  <component name="RunManager" selected="Application.SemanticsAPI">
     <configuration name="GoogleAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.GoogleAPI" />
+      <module name="GraphicsVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemanticsAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.SemanticsAPI" />
       <module name="GraphicsVersion" />
       <extension name="coverage">
         <pattern>
@@ -78,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemanticsAPI" />
         <item itemvalue="Application.TextToSpeechAPI" />
         <item itemvalue="Application.GoogleAPI" />
       </list>
