@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="" />
+    <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/controllers/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/stages/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/stages/Popup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/stages/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +55,7 @@
       <recent name="D:\VNU\Program\OOP\N2_01Project\DictionaryBTL\GraphicsVersion\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.HelloApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.dictionary.stages.Application" />
       <module name="GraphicsVersion" />
@@ -115,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.TextToSpeechAPI" />
         <item itemvalue="Application.SemanticsAPI" />
         <item itemvalue="Application.GoogleAPI" />
@@ -133,5 +141,16 @@
       <updated>1659277783810</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
