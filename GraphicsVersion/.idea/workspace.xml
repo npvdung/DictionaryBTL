@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/Backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/artifacts/Backend_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/DictionaryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Word.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion/src/libs/commons-lang3-3.11.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/Backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VNU\Program\OOP\N2_01Project\DictionaryBTL\GraphicsVersion\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SemanticsAPI">
+  <component name="RunManager" selected="Application.GoogleAPI">
     <configuration name="GoogleAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.GoogleAPI" />
       <module name="GraphicsVersion" />
@@ -94,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleAPI" />
         <item itemvalue="Application.SemanticsAPI" />
         <item itemvalue="Application.TextToSpeechAPI" />
-        <item itemvalue="Application.GoogleAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +124,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659277783810</updated>
+      <workItem from="1659719858951" duration="648000" />
+      <workItem from="1659723631440" duration="683000" />
+      <workItem from="1659899767241" duration="2719000" />
+      <workItem from="1659951120526" duration="2200000" />
+      <workItem from="1659969397483" duration="1116000" />
+      <workItem from="1660024674575" duration="854000" />
+      <workItem from="1660041519987" duration="4463000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
