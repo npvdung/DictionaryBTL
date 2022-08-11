@@ -114,7 +114,10 @@ public class DatabaseManager {
 
     public static void main(String[] args) {
         connectToDataBase();
-//        deleteAll();
+        String[] s = get("value").split("@");
+        for (String i : s) {
+            System.out.println(i);
+        }
 //        update("chienle", "lechien", "n", "le chien");
     }
 
