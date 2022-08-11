@@ -26,7 +26,7 @@ public class TextToSpeechAPI {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        getTextToSpeech("hello");
+        getTextToSpeech("hello world");
         long end = System.currentTimeMillis();
         System.out.println("\n" + (end - start));
     }
