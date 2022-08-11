@@ -9,8 +9,14 @@
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/Backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/artifacts/Backend_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -26,9 +32,6 @@
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/test/java/com/example/demo/DictionaryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/test/java/com/example/demo/DictionaryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Word.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +177,7 @@
       <workItem from="1660191261539" duration="594000" />
       <workItem from="1660200370068" duration="9946000" />
       <workItem from="1660214243237" duration="1874000" />
-      <workItem from="1660216386652" duration="3732000" />
+      <workItem from="1660216386652" duration="5427000" />
     </task>
     <servers />
   </component>
