@@ -26,7 +26,9 @@
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/DictionaryBE/src/test/java/com/example/demo/DictionaryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/test/java/com/example/demo/DictionaryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Word.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,23 +58,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VNU\Program\OOP\N2_01Project\DictionaryBTL\GraphicsVersion\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextToSpeechAPI">
+  <component name="RunManager" selected="Application.DatabaseManager">
+    <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseManagement.DatabaseManager" />
+      <module name="GraphicsVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DatabaseManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api.GoogleAPI" />
       <module name="GraphicsVersion" />
@@ -112,8 +128,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="init" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseManagement.init" />
+      <module name="GraphicsVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DatabaseManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatabaseManager" />
+        <item itemvalue="Application.init" />
         <item itemvalue="Application.TextToSpeechAPI" />
         <item itemvalue="Application.GoogleAPI" />
         <item itemvalue="Application.SemanticsAPI" />
@@ -140,6 +171,10 @@
       <workItem from="1660148570791" duration="8000" />
       <workItem from="1660151519644" duration="117000" />
       <workItem from="1660154335980" duration="1573000" />
+      <workItem from="1660191261539" duration="594000" />
+      <workItem from="1660200370068" duration="9946000" />
+      <workItem from="1660214243237" duration="1874000" />
+      <workItem from="1660216386652" duration="3732000" />
     </task>
     <servers />
   </component>
