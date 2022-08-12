@@ -7,6 +7,10 @@ import com.voicerss.tts.VoiceParameters;
 import com.voicerss.tts.VoiceProvider;
 
 public class TextToSpeechAPI {
+    /**
+     * phát âm
+     * @param text từ cần đọc
+     */
     public static void getTextToSpeech(String text) {
         try {
             VoiceProvider tts = new VoiceProvider("600b8fac7a214e5e91fff8c9baf69a4a");
@@ -26,7 +30,7 @@ public class TextToSpeechAPI {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        getTextToSpeech("hello");
+        getTextToSpeech("hello world");
         long end = System.currentTimeMillis();
         System.out.println("\n" + (end - start));
     }

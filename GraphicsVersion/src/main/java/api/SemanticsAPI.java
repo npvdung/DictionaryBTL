@@ -12,6 +12,11 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class SemanticsAPI {
+    /**
+     * trả về json chứa từ đồng nghĩa, trái nghĩa, hypernyms, hyponyms
+     * @param wordForm từ cần tìm
+     * @return json
+     */
     public static JSONObject getSynonymList(String wordForm) {
         try {
             URL url = new URL("https://languagetools.p.rapidapi.com/all/" + URLEncoder.encode(wordForm, StandardCharsets.UTF_8).replace("+", "%20"));

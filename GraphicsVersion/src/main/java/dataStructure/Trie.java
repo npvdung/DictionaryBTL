@@ -50,4 +50,50 @@ public class Trie {
         TrieNode trieNode = this.search(key);
         return this.find(trieNode).split("@");
     }
+
+    static boolean isEmpty(TrieNode trieNode) {
+        for (int i = 0; i < TrieNode.ALPHABET_SIZE; i++) {
+            if (trieNode.getChildren()[i] != null) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void delete(String word) {
+        word = word.toLowerCase();
+        backTrackDelete(root, word, 0);
+    }
+
+    public TrieNode backTrackDelete(TrieNode trieNode, String key, int depth) {
+        key = key.toLowerCase();
+        if (trieNode == null) {
+            return null;
+        }
+        if (depth == key.length()) {
+            if (trieNode.isEndOfWord()) {
+                trieNode.setEndOfWord(false);
+            }
+            if (isEmpty(trieNode)) {
+                trieNode = null;
+            }
+            return trieNode;
+        }
+
+        char x = key.charAt(depth);
+        int index = 0;
+        if (x >= 'a' && x <= 'z') {
+            index = x - 'a';
+        } else if (x >= 'A' && x <= 'Z') {
+            index = x - 'A';
+        } else if (x >= '0' && x <= '9') {
+            index = x - '0';
+        }
+
+        trieNode.getChildren()[index] = backTrackDelete(trieNode.getChildren()[index], key, depth + 1);
+        if (isEmpty(trieNode) && !trieNode.isEndOfWord()) {
+            trieNode = null;
+        }
+        return trieNode;
+    }
 }
