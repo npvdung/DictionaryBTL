@@ -11,6 +11,14 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class GoogleAPI {
+    /**
+     * dịch từ, câu, văn bản...
+     * @param langFrom "en" - dịch từ tiếng anh
+     * @param langTo "vi - sang tiếng việt
+     * @param text văn bản cần dịch
+     * @return văn bản đã dịch
+     * @throws IOException .
+     */
     public static String translate(String langFrom, String langTo, String text) throws IOException {
         String APIKEY = "AKfycbzxtNpZD2Ogs4oeUnj8nTaCmPlKwgwsLWPasyIsLQPB_WXvKdKU";
         URL url = new URL("https://script.google.com/macros/s/" + APIKEY + "/exec?q=" + URLEncoder.encode(text, StandardCharsets.UTF_8) + "&target=" + langTo + "&source=" + langFrom);

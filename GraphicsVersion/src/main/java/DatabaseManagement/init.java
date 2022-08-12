@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class init {
 
+    /**
+     * lấy data từ file txt vào local db
+     * !chỉ gọi 1 lần duy nhất lúc clone về
+     * @throws IOException .
+     */
     public static void importFromFileToDatabase() throws IOException {
         String url = "src/main/java/DictionaryManagement/dictionaries.txt";
         FileInputStream fileInputStream = new FileInputStream(url);

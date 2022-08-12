@@ -8,6 +8,11 @@ public class DatabaseManager {
     private static Connection conn;
     private static Statement stmt;
     protected static Trie trie = new Trie();
+
+    /**
+     * kết nối với mySQL, thêm data vào cây Trie
+     * gọi ở main trước khi thực hiện những việc khác
+     */
     public static void connectToDataBase() {
         try {
             conn = DriverManager.getConnection(
@@ -40,7 +45,12 @@ public class DatabaseManager {
         }
     }
 
-    public static String get(String word) {
+    /**
+     * lấy thông tin 1 từ
+     * @param word từ cần tìm.
+     * @return mảng String, thứ tự từ 0-3 là từ tiếng anh, phát âm, loại từ, nghĩa tiếng việt
+     */
+    public static String[] get(String word) {
         String str = "";
         try {
             String sqlGet = String.format("select * from words where english_word = '%s'", word.toLowerCase());
@@ -54,9 +64,16 @@ public class DatabaseManager {
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
-        return str;
+        return str.split("@");
     }
 
+    /**
+     * thêm 1 từ vào db và cây Trie
+     * @param english_word tiếng anh
+     * @param spell_word phát âm
+     * @param type_word loại từ
+     * @param viet_word nghĩa tiếng việt
+     */
     public static void insert(String english_word, String spell_word, String type_word,String viet_word) {
         try {
             String sqlInsert = String.format("insert into words (english_word, spell_word, type_word, viet_word) " +
@@ -72,6 +89,10 @@ public class DatabaseManager {
 
     }
 
+    /**
+     * xóa 1 từ trong db và cây Trie
+     * @param word từ cần xóa
+     */
     public static void delete(String word) {
         try {
             String sqlDelete = String.format("delete from words where english_word = '%s'", word.toLowerCase());
@@ -84,6 +105,13 @@ public class DatabaseManager {
         }
     }
 
+    /**
+     * update 1 từ trong db
+     * @param english_word từ cần update
+     * @param spell_word phát âm
+     * @param type_word loại từ
+     * @param viet_word nghĩa tiếng việt
+     */
     public static void update(String english_word, String spell_word, String type_word, String viet_word) {
         try {
             String sqlUpdate  = String.format("update words set spell_word = '%s', type_word = '%s', viet_word = '%s' " +
@@ -96,6 +124,11 @@ public class DatabaseManager {
         }
     }
 
+    /**
+     * search trên toàn db các từ có cùng tiền tố
+     * @param find tiền tố
+     * @return mảng string
+     */
     public static String[] dictionarySearcher(String find) {
         find = find.toLowerCase();
         return trie.findAllWord(find);
@@ -114,7 +147,7 @@ public class DatabaseManager {
 
     public static void main(String[] args) {
         connectToDataBase();
-        String[] s = get("value").split("@");
+        String[] s = get("value");
         for (String i : s) {
             System.out.println(i);
         }
