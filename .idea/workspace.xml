@@ -4,70 +4,216 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1811536-c0f5-448c-8041-662f9cae4bb3" name="Changes" comment="">
-<<<<<<< HEAD
+    <list default="true" id="0fa281d2-6adf-450f-a085-876a0c77c8d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/Backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/artifacts/Backend_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/DictionaryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/model/DictionaryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/repository/DictionaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/service/DictionaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/java/com/example/demo/service/IDictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/DictionaryBE/src/test/java/com/example/demo/DictionaryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandLineVersion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement/DictionaryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement/DictionaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/client/dictionary/dictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/client/dictionary/graphics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsVersion/src/main/resources/com/example/graphicsversion/hello-view.fxml" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 7185df93f694bd8203fb0b5681275127d76a952c
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/controllers/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/stages/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/stages/Popup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/stages/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/dictionary/popup.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/dictionary/searching.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/dictionary/sentence.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/dictionary/settings-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/client/dictionary/synonym-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CFH5ABsXGmL5sBzWLvsEOkYy6y" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2DAYOSlHi0DVadKWJJmMVHjSrxC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/IT_CN1_UET/BTLDictionary/DictionaryBTL/GraphicsVersion"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/IT_CN1_UET/BTLDictionary/DictionaryBTL/GraphicsVersion",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IT_CN1_UET\BTLDictionary\DictionaryBTL\GraphicsVersion\src\main\java\DictionaryManagement" />
+      <recent name="C:\IT_CN1_UET\BTLDictionary\DictionaryBTL\GraphicsVersion\src\main\resources\client\dictionary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.stages.Application" />
+      <module name="GraphicsVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.stages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.graphicsversion.HelloApplication" />
+      <module name="GraphicsVersion" />
+      <option name="VM_PARAMETERS" value="--module-path=&quot;C:\Java\javafx-sdk-18.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.graphicsversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DictionaryManagement.Main" />
+      <module name="GraphicsVersion" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Java\javafx-sdk-18.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml Viết cho " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DictionaryManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client.dictionary.stages.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.dictionary.stages.Application" />
+      <module name="GraphicsVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.dictionary.stages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.client.dictionary.stages.Application" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.client.dictionary.stages.Application" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/CommandLineVersion&quot;
-  }
-}</component>
->>>>>>> 7185df93f694bd8203fb0b5681275127d76a952c
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1811536-c0f5-448c-8041-662f9cae4bb3" name="Changes" comment="" />
-      <created>1658391226902</created>
+      <changelist id="0fa281d2-6adf-450f-a085-876a0c77c8d5" name="Changes" comment="" />
+      <created>1660122509950</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658391226902</updated>
+      <updated>1660122509950</updated>
+      <workItem from="1660143335835" duration="701000" />
+      <workItem from="1660149945558" duration="4205000" />
+      <workItem from="1660191191544" duration="18969000" />
+      <workItem from="1660228513758" duration="943000" />
+      <workItem from="1660266250600" duration="349000" />
+      <workItem from="1660273649301" duration="21000" />
+      <workItem from="1660273687005" duration="21000" />
+      <workItem from="1660273797175" duration="61000" />
+      <workItem from="1660274076659" duration="1287000" />
+      <workItem from="1660276601674" duration="2647000" />
+      <workItem from="1660286407077" duration="2549000" />
+      <workItem from="1660293740706" duration="1912000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
