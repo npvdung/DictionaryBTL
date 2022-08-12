@@ -27,7 +27,7 @@ public class GoogleAPI {
     }
 
     public static void main(String[] args) throws IOException {
-        String text = "Hello World";
+        String text = "hello from vietnam";
         System.out.println("Translated text: " + translate("", "vi", text));
     }
 }
