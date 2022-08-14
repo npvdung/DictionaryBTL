@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseManagement/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseManagement/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/DictionaryManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/dictionaries.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/SemanticsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/SemanticsAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/dictionary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/dictionary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/graphics.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/graphics.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +178,7 @@
       <workItem from="1660304075757" duration="1064000" />
       <workItem from="1660316023640" duration="9066000" />
       <workItem from="1660361833840" duration="25058000" />
-      <workItem from="1660445414770" duration="13550000" />
+      <workItem from="1660445414770" duration="31825000" />
     </task>
     <servers />
   </component>

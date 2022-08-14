@@ -14,6 +14,7 @@ public class Main extends Application {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/graphicsversion/dictionary.fxml"));
             Scene scene = new Scene(root);
+            scene.getStylesheets().add(getClass().getResource("graphics.css").toExternalForm());
             primaryStage.setScene(scene);
             primaryStage.setTitle("Từ điển Anh-Việt");
             primaryStage.show();
