@@ -1,6 +1,7 @@
 package api;
 
 import org.apache.commons.text.StringEscapeUtils;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -17,7 +18,7 @@ public class SemanticsAPI {
      * @param wordForm từ cần tìm
      * @return json
      */
-    public static JSONObject getSynonymList(String wordForm) {
+    public static JSONObject getSemanticsList(String wordForm) {
         try {
             URL url = new URL("https://languagetools.p.rapidapi.com/all/" + URLEncoder.encode(wordForm, StandardCharsets.UTF_8).replace("+", "%20"));
             HttpURLConnection request = (HttpURLConnection) url.openConnection();
@@ -35,6 +36,26 @@ public class SemanticsAPI {
         } catch (IOException e) {
             return new JSONObject("{\"hypernyms\":[],\"synonyms\":[],\"antonyms\":[],\"hyponyms\":[]}");
         }
+    }
+
+    public static String getSynonymList(String word) {
+        JSONObject jsonObject = getSemanticsList(word);
+        JSONArray array = jsonObject.getJSONArray("synonyms");
+        String outword = "\n";
+        for(int i = 0 ; i < array.length() ; i++) {
+            outword += array.getString(i) + '\n';
+        }
+        return outword;
+    }
+
+    public static String getAntonymsList(String word) {
+        JSONObject jsonObject = getSemanticsList(word);
+        JSONArray array = jsonObject.getJSONArray("antonyms");
+        String outword = "\n";
+        for(int i = 0 ; i < array.length() ; i++) {
+            outword += array.getString(i) + '\n';
+        }
+        return outword;
     }
 
     public static void main(String[] args) throws IOException {

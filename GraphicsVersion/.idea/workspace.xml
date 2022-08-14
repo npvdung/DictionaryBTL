@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsVersion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseManagement/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseManagement/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseManagement/init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseManagement/init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/DictionaryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement/dictionaries.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/GoogleAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/SemanticsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/SemanticsAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/TextToSpeechAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/graphicsversion/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/graphicsversion/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/VNU/Program/OOP/N2_01Project/DictionaryBTL/GraphicsVersion",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/javafx-sdk-18.0.2/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\BTL2\DictionaryBTL\GraphicsVersion\src\main\resources\client\dictionary" />
+      <recent name="C:\Users\DELL\IdeaProjects\BTL2\DictionaryBTL\GraphicsVersion\src\main\java\DictionaryManagement" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\BTL2\DictionaryBTL\GraphicsVersion\src\main\resources" />
+      <recent name="C:\Users\DELL\IdeaProjects\BTL2\DictionaryBTL\GraphicsVersion\src\main\resources\com\example" />
       <recent name="D:\VNU\Program\OOP\N2_01Project\DictionaryBTL\GraphicsVersion\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DatabaseManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseManagement.DatabaseManager" />
       <module name="GraphicsVersion" />
@@ -76,6 +94,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.graphicsversion.Main" />
+      <module name="GraphicsVersion" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Java\javafx-sdk-18.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.graphicsversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="init" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DatabaseManagement.init" />
-      <module name="GraphicsVersion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DatabaseManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.SemanticsAPI" />
+      <item itemvalue="Application.DatabaseManager" />
+      <item itemvalue="Application.GoogleAPI" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TextToSpeechAPI" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DatabaseManager" />
-        <item itemvalue="Application.init" />
-        <item itemvalue="Application.TextToSpeechAPI" />
-        <item itemvalue="Application.GoogleAPI" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SemanticsAPI" />
+        <item itemvalue="Application.DatabaseManager" />
+        <item itemvalue="Application.GoogleAPI" />
+        <item itemvalue="Application.TextToSpeechAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -159,10 +185,25 @@
       <workItem from="1660234359614" duration="252000" />
       <workItem from="1660286431305" duration="156000" />
       <workItem from="1660300437215" duration="2022000" />
+      <workItem from="1660304075757" duration="1064000" />
+      <workItem from="1660316023640" duration="9066000" />
+      <workItem from="1660361833840" duration="25058000" />
+      <workItem from="1660445414770" duration="13550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

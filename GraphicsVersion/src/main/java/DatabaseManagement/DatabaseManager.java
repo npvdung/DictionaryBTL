@@ -29,7 +29,7 @@ public class DatabaseManager {
             ex.printStackTrace();
         }
     }
-    public static void get() {
+    public static void get(String addnewWord, String addvoidWord, String addtypeWord, String addmeanWord) {
         try {
             String strSelect = "select english_word, viet_word from words";
             ResultSet rset = stmt.executeQuery(strSelect);
@@ -60,6 +60,8 @@ public class DatabaseManager {
                 str += rset.getString("spell_word") + "@";
                 str += rset.getString("type_word") + "@";
                 str += rset.getString("viet_word");
+//                System.out.println(str);
+                break;
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
@@ -147,7 +149,7 @@ public class DatabaseManager {
 
     public static void main(String[] args) {
         connectToDataBase();
-        String[] s = get("value");
+        String[] s = get("duyanh");
         for (String i : s) {
             System.out.println(i);
         }
