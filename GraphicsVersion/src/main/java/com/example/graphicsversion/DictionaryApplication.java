@@ -18,6 +18,12 @@ public class DictionaryApplication implements Initializable {
 //    @FXML
 //    public Button search;
     @FXML
+    public TextField meaning;
+    @FXML
+    public TextField pronounce;
+    @FXML
+    public TextField typeWord;
+    @FXML
     public Button audio;
     @FXML
     public TextField inWord;
@@ -155,7 +161,7 @@ public class DictionaryApplication implements Initializable {
             String word = inWord.getText();
             DatabaseManager.delete(word);
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText("Từ " + word + " đã được xóa khỏi từ điển của bạn");
+            alert.setContentText("Từ " + inWord + " đã được xóa khỏi từ điển của bạn");
             alert.show();
         });
 
@@ -165,10 +171,10 @@ public class DictionaryApplication implements Initializable {
             String wordSelect = listView.getSelectionModel().getSelectedItem();
             if (wordSelect != null && !wordSelect.equals("")) {
                 String[] getWord = DatabaseManager.get(wordSelect);
-                String outWord = "Phát âm : " + getWord[1] + "\n"
-                        + "Từ loại     : " + getWord[2] + "\n"
-                        + "Nghĩa      : " + getWord[3] + "\n" + "\n"
-                        + "Từ đồng nghĩa : " + api.SemanticsAPI.getSynonymList(wordSelect) + "\n"
+                pronounce.setText(getWord[1]);
+                typeWord.setText(getWord[2]);
+                meaning.setText(getWord[3]);
+                String outWord = "Từ đồng nghĩa : " + api.SemanticsAPI.getSynonymList(wordSelect) + "\n"
                         + "Từ trái nghĩa : " + api.SemanticsAPI.getAntonymsList(wordSelect);
                 translate.setText(outWord);
                 inWord.setText(wordSelect);
