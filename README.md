@@ -26,11 +26,11 @@
 7. Open folder \GraphicsVersion and run app at \GraphicsVersion\src\main\java\com\example\graphicsversion\Main.java
 # References
 - Core: 
-  - Java Development Kit 18 for compiler.
-  - JavaFX and SceneBuilder for Front-end Development.
-  - SpringBoot for Back-end Development
+  - [Java Development Kit 18](https://www.oracle.com/java/technologies/downloads/#jdk18-windows) for compiler.
+  - [JavaFX](https://openjfx.io/) and [SceneBuilder](https://gluonhq.com/products/scene-builder/) for Front-end Development.
+  - [SpringBoot](https://spring.io/projects/spring-boot) for Back-end Development
 - Database:
-  - MySQL server for manage data
+  - [MySQL server](https://www.mysql.com/) for manage data
 - API:
   - [Freetts](https://freetts.com/) for Text To Speech API.
   - [Google Translate](https://translate.google.com/) for Paragraph Translate API.
