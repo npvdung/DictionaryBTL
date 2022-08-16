@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/DictionaryBTL/Backend/DictionaryBE",
+    "last_opened_file_path": "D:/UET/DictionaryBTL/GraphicsVersion/src/libs/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -178,6 +177,8 @@
       <workItem from="1660361833840" duration="25058000" />
       <workItem from="1660445414770" duration="35179000" />
       <workItem from="1660648694732" duration="392000" />
+      <workItem from="1660650130771" duration="997000" />
+      <workItem from="1660663395512" duration="343000" />
     </task>
     <servers />
   </component>
