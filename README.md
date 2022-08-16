@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/73191554/184792496-3a300a2d-a425-4b79-bb07-912309a673db.png)
 
 # Install
-1. Install [JDK 18 Environment] (https://download.oracle.com/java/18/archive/jdk-18.0.1.1_windows-x64_bin.zip) in order to use this application
+1. Install [JDK 18 Environment] (https://www.oracle.com/java/technologies/downloads/#jdk18-windows) in order to use this application
 2. Download and install IntelliJ Ultimate (free for VNU account)
 3. Download and install MySQLWorkbench to work with database follow [instruction](https://www.simplilearn.com/tutorials/mysql-tutorial/mysql-workbench-installation)
 **Note: At step 12, set password "dung"**
