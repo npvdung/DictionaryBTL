@@ -14,7 +14,34 @@
 ![image](https://user-images.githubusercontent.com/73191554/184792496-3a300a2d-a425-4b79-bb07-912309a673db.png)
 
 # Install
-- Install [JDK 18 Environment] (https://download.oracle.com/java/18/archive/jdk-18.0.1.1_windows-x64_bin.zip) in order to use this application
-# References
-# Developers
+1. Install [JDK 18 Environment] (https://download.oracle.com/java/18/archive/jdk-18.0.1.1_windows-x64_bin.zip) in order to use this application
+2. Download and install IntelliJ Ultimate (free for VNU account)
+3. Download and install MySQLWorkbench to work with database follow [instruction](https://www.simplilearn.com/tutorials/mysql-tutorial/mysql-workbench-installation)
+**Note: At step 12, set password "dung"**
+4. Create schema "dictionary" in Workbench 
+5. Open folder \Backend\DictionaryBE\ by IntelliJ Ultimate and run DictionaryApplication 
+6. Import file \Backend\DictionaryBE\dictionaryDB.sql into "dictionary" schema
+![image](https://user-images.githubusercontent.com/73191554/184803106-20fc4900-0fce-4024-9ae1-4b4365b649ff.png)
 
+7. Open folder \GraphicsVersion and run app at \GraphicsVersion\src\main\java\com\example\graphicsversion\Main.java
+# References
+- Core: 
+  - Java Development Kit 18 for compiler.
+  - JavaFX and SceneBuilder for Front-end Development.
+  - SpringBoot for Back-end Development
+- Database:
+  - MySQL server for manage data
+- API:
+  - [Freetts](https://freetts.com/) for Text To Speech API.
+  - [Google Translate](https://translate.google.com/) for Paragraph Translate API.
+  - [RapidAPI](https://rapidapi.com/) for Synonym API.
+# Developers
+- Dung [npvdung](https://github.com/npvdung) Nguyen Phan Viet
+  - Back-end developer
+  - Tester
+- Chien [lechiennn](https://github.com/lechiennn) Le Van
+  - Fetch API
+  - Collect dictionary data
+- Anh [duyanh0208](https://github.com/duyanh0208) Bui Dao Duy
+  - Front-end designer
+  - Front-end developer
