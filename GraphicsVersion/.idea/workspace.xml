@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/UET/DictionaryBTL/GraphicsVersion/src/libs/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar",
+    "last_opened_file_path": "C:/Users/npvdr/Desktop/DictionaryBTL/GraphicsVersion/src/libs/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,6 +177,7 @@
       <workItem from="1660648694732" duration="392000" />
       <workItem from="1660650130771" duration="997000" />
       <workItem from="1660663395512" duration="343000" />
+      <workItem from="1660665184184" duration="112000" />
     </task>
     <servers />
   </component>
