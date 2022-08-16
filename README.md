@@ -32,7 +32,7 @@
 - Database:
   - [MySQL server](https://www.mysql.com/) for manage data
 - API:
-  - [Freetts](https://freetts.com/) for Text To Speech API.
+  - [Voice RSS](https://www.voicerss.org/?fbclid=IwAR3uG7pZU4FntVLDIh1ivg4XFrJtzUxSFzkSXiLoa8JMMCsVQWo1Q7Kffng) for Text To Speech API.
   - [Google Translate](https://translate.google.com/) for Paragraph Translate API.
   - [RapidAPI](https://rapidapi.com/) for Synonym API.
 # Developers
