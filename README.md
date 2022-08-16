@@ -22,8 +22,11 @@
 5. Open folder \Backend\DictionaryBE\ by IntelliJ Ultimate and run Back-end at \src\main\java\com\example\demo\DictionaryApplication.java 
 6. Import file \Backend\DictionaryBE\dictionaryDB.sql into "dictionary" schema
 ![image](https://user-images.githubusercontent.com/73191554/184803106-20fc4900-0fce-4024-9ae1-4b4365b649ff.png)
+7. Download [JavaFx SDK](https://openjfx.io/) 
+8. Open folder \GraphicsVersion and run app at \GraphicsVersion\src\main\java\com\example\graphicsversion\Main.java
+    - **If error module javafx.controls not found, open "edit configuration", replace path in "" with your libs path in JavaFX downloaded at step 7
+    ![image](https://user-images.githubusercontent.com/73191554/184933928-de705e4e-4eef-44c0-9014-714c782ad433.png)
 
-7. Open folder \GraphicsVersion and run app at \GraphicsVersion\src\main\java\com\example\graphicsversion\Main.java
 # References
 - Core: 
   - [Java Development Kit 18](https://www.oracle.com/java/technologies/downloads/#jdk18-windows) for compiler.
