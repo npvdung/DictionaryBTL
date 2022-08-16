@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f05d56eb-4b56-4a45-97b3-a183512ea6b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphicsVersion.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/npvdr/Downloads/DictionaryBTL/Backend/DictionaryBE",
+    "last_opened_file_path": "C:/DictionaryBTL/Backend/DictionaryBE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -176,6 +177,7 @@
       <workItem from="1660316023640" duration="9066000" />
       <workItem from="1660361833840" duration="25058000" />
       <workItem from="1660445414770" duration="35179000" />
+      <workItem from="1660648694732" duration="392000" />
     </task>
     <servers />
   </component>
