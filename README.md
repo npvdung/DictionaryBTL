@@ -17,7 +17,7 @@
 1. Install [JDK 18 Environment](https://www.oracle.com/java/technologies/downloads/#jdk18-windows) in order to use this application
 2. Download and install IntelliJ Ultimate (free for VNU account)
 3. Download and install MySQLWorkbench to work with database follow [instruction](https://www.simplilearn.com/tutorials/mysql-tutorial/mysql-workbench-installation)
-  - **Note: At step 12, set password "dung"**
+    - **Note: At step 12, set password "dung"**
 4. Create schema "dictionary" in Workbench 
 5. Open folder \Backend\DictionaryBE\ by IntelliJ Ultimate and run DictionaryApplication 
 6. Import file \Backend\DictionaryBE\dictionaryDB.sql into "dictionary" schema
