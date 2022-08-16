@@ -25,7 +25,7 @@
 7. Download [JavaFx SDK](https://openjfx.io/) 
 8. Open folder \GraphicsVersion and run app at \GraphicsVersion\src\main\java\com\example\graphicsversion\Main.java
     - **If error module javafx.controls not found, open "edit configuration", replace path in "" with your libs path in JavaFX downloaded at step 7**
-    ![image](https://user-images.githubusercontent.com/73191554/184933928-de705e4e-4eef-44c0-9014-714c782ad433.png)
+![image](https://user-images.githubusercontent.com/73191554/184933928-de705e4e-4eef-44c0-9014-714c782ad433.png)
 
 # References
 - Core: 
